@@ -11,3 +11,11 @@ Part 2: Due 3/14 before midnight CST.
 3. Update the login process to use the database.
 
 Update your DDL with the users table from Canvas.
+
+Part 3: Due 3/21 before midnight CST.
+
+1. Update your register process to hash all passwords inserted into the database.
+2. Update your login process to verify the hashed password.
+
+Upload a zip file with your entire PHP application (all 3 parts) here.
+• https://una.instructure.com/courses/93868/assignments/1085838?module_item_id=2218683
