@@ -40,6 +40,9 @@ if (mysqli_num_rows($result) > 0) {
     exit();
 }
 
+// Hash the password
+$pwd = password_hash($pwd, PASSWORD_DEFAULT);
+
 // TODO: insert the new user into the database
 // HINT: INSERT INTO users(username, password) VALUES('$uname', '$repeat')
 $sql = "INSERT INTO users (username, password) VALUES ('$uname', '$pwd')";
