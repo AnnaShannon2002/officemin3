@@ -14,7 +14,6 @@ if (isset($_SESSION['user'])) {
         <form action="authenticate.php" method="post">
             Username: <input type="text" name="uname"><br>
             Password: <input type="password" name="pwd"><br>
-            Repeat: <input type="password" name="repeat"><br> 
             <input type="submit">
         </form>
         <br>New user?
